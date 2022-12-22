@@ -21,13 +21,13 @@
 
         <div class="navigation-wrapper">
 
-          <nav class="cover-navigation cover-navigation--primary">
+          <!-- nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               {% for link in site.data.index_links %}
                 <li class="navigation__item"><a href="/{{ link.link }}" title="{{ link.hover_text }}" class="blog-button">{{ link.title }}</a></li>
               {% endfor %}
             </ul>
-          </nav>
+          </nav -->
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
@@ -43,14 +43,15 @@
             {% endif %}
 
             {% if site.github %}
-            <!-- GitHub -->
+            <!-- GitHub 
             <li class="navigation__item">
               <a href="https://www.github.com/{{ site.github }}" title="{{ site.github }} on GitHub" target="_blank">
                 <i class="icon icon-social-github"></i>
                 <span class="label">GitHub</span>
               </a>
-            </li>
-            {% endif %}
+            </li> --!>
+            {% endif %} -->
+            
 
             {% if site.linkedin %}
             <!-- LinkedIn -->
@@ -114,13 +115,13 @@
 
         <div class="navigation-wrapper">
 
-          <nav class="cover-navigation cover-navigation--primary">
+          <!-- nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
               {% for link in site.data.index_links %}
                 <li class="navigation__item"><a href="/{{ link.link }}" title="{{ link.hover_text }}" class="blog-button">{{ link.title }}</a></li>
               {% endfor %}
             </ul>
-          </nav>
+          </nav -->
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
@@ -136,14 +137,14 @@
             {% endif %}
 
             {% if site.github %}
-            <!-- GitHub -->
+            <!-- GitHub 
             <li class="navigation__item">
               <a href="https://www.github.com/{{ site.github }}" title="{{ site.github }} on GitHub" target="_blank">
                 <i class="icon icon-social-github"></i>
                 <span class="label">GitHub</span>
               </a>
             </li>
-            {% endif %}
+            {% endif %} -->
 
             {% if site.linkedin %}
             <!-- LinkedIn -->
